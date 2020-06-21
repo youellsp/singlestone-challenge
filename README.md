@@ -5,7 +5,7 @@ Follow these steps in order to get the project running on your local development
 Navigate to a workspace directory and using the command line, clone the repository to retrieve the master branch 
 
 ```
-git clone 
+git clone https://github.com/youellsp/singlestone-challenge.git
 ```
 Next, navigate to the newly created directory, for example:
 ```
