@@ -1,4 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setting up the project locally
+
+Follow these steps in order to get the project running on your local development server
+
+Navigate to a workspace directory and using the command line, clone the repository to retrieve the master branch 
+
+```
+git clone 
+```
+Next, navigate to the newly created directory, for example:
+```
+cd singlestone-challenge
+```
+Once you are in the project directory, install the project dependencies
+```
+yarn install
+```
+or
+```
+npm install
+```
+After project dependencies have been installed you can run the project tests 
+```
+yarn test
+```
+or
+```
+npm run test
+```
+You can start the application on a local development server by running
+```
+yarn start
+```
+or
+```
+npm run start
+```
+A browser should open automatically, but if not, navigate to `localhost:3000` in your browser
 
 ## Available Scripts
 

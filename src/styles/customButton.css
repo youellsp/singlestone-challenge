@@ -1,0 +1,21 @@
+button.get-started {
+    background: #50e3c2;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 7px 25px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button.get-started:focus {
+    outline: none;
+}
+
+button.get-started:hover {
+    background: #00a793;
+}

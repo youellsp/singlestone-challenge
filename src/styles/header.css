@@ -1,0 +1,22 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: #222222;
+  width: 100vw;
+  padding: 0 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0 5%;
+  }
+}
+
+.logo {
+  height: 20px;
+  padding: 15px 0;
+}
+
+.letter {
+  fill: #50E3C2;
+}

@@ -1,0 +1,24 @@
+main {
+    height: fit-content;
+    padding: 1% 15% 5%;
+    color: #2f3237;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 1% 5% 5%;
+    }
+}
+
+main > h1.title {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin: 10px;
+}
+
+.step-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}

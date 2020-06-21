@@ -1,0 +1,50 @@
+section {
+    height: auto;
+    background-image: url('../assets/photo-couch_2x.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    color: #fff;
+    padding: 25% 10% 8% 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 25% 10% 8% 5%;
+    }
+}
+
+/*!* Extra small devices (phones, 600px and down) *!*/
+/*@media only screen and (max-width: 600px) {...}*/
+
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+/*@media only screen and (min-width: 600px) {...}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {...}*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {...}*/
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {...}*/
+
+h4.title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+h1.strong {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+p.message {
+    max-width: 500px;
+    width: 100%;
+    font-size: 18px;
+}

@@ -1,0 +1,24 @@
+.step > h1.number {
+    font-weight: 500;
+    font-size: 56px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.step > hr {
+    border: 2px solid #50e3c2;
+    width: 20%;
+}
+
+.step > h6.name {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 10px 15px;
+    font-size: 16px;
+}
+
+.step > p.description {
+    padding: 0 10px;
+    font-size: 18px;
+    text-align: center;
+}
